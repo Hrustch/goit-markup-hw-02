@@ -97,13 +97,21 @@ header .logo {
     line-height: 21px;
     color: #4D5AE5;
 }
-.Studio{
+.Studio {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
     color: #2E2F42;
+}
+.Studio_White {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
 }
 /*-----------------------------------------------------*/
 header nav ul {
@@ -195,8 +203,10 @@ header address ul li a {
  .section_1 ul{
     display: flex;
     justify-content: space-between;
-    margin: 0px 156px;
     width: 1170px;
+ }
+ .section_1 ul li{
+    width: 264px;
  }
 /*-----------------------------------------------------*/
 
@@ -255,4 +265,17 @@ header address ul li a {
     margin-bottom: 32px;
 }
 
+/*-----------------------------------------------------*/
+/*Footer*/
+footer{
+    height: 310px;
+    width: 100%;
+    background-color: #2E2F42;
+    padding: 100px 0px 0px 156px;
+}
+footer .body{
+    color: #E7E9FC;
+    width: 264px;
+    padding-top: 16px;
+}
 /*-----------------------------------------------------*/
