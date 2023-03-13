@@ -18,6 +18,7 @@ body {
     font-family: "Roboto", "Arial", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-size: 16px;
 }
 
 .header {
@@ -104,7 +105,7 @@ body {
 }
 
 .order_button:hover {
-    background: var(--pressed_color);
+    background-color: var(--pressed_color);
     transition: 2s;
 }
 
